@@ -4,7 +4,6 @@ void main() {
   runApp(const MyApp());
 }
 
-/// Aplicație Flutter simplă pentru conversia temperaturii
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -32,7 +31,6 @@ class _TempConverterPageState extends State<TempConverterPage> {
   Unit to = Unit.fahrenheit;
   String result = "";
 
-  /// Funcție care face conversia temperaturii
   void convert() {
     double? value = double.tryParse(controller.text);
     if (value == null) {
@@ -40,7 +38,6 @@ class _TempConverterPageState extends State<TempConverterPage> {
       return;
     }
 
-    // Pas 1: transform în Celsius
     double celsius;
     switch (from) {
       case Unit.celsius:
@@ -54,7 +51,6 @@ class _TempConverterPageState extends State<TempConverterPage> {
         break;
     }
 
-    // Pas 2: transform din Celsius în unitatea dorită
     double output;
     switch (to) {
       case Unit.celsius:
@@ -84,7 +80,6 @@ class _TempConverterPageState extends State<TempConverterPage> {
     }
   }
 
-  /// Selector pentru unități (folosește Radio)
   Widget unitSelector(String label, Unit current, void Function(Unit?) onChanged) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
