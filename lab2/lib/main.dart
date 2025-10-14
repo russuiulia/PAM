@@ -177,7 +177,7 @@ class _RecipeHomePageState extends State<RecipeHomePage> {
                         borderSide: BorderSide(
                           color: const Color(
                             0xFF888888,
-                          ), // slightly lighter on focus
+                          ), 
                           width: 2.0,
                         ),
                       ),
