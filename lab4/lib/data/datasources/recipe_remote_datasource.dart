@@ -9,12 +9,13 @@ abstract class RecipeRemoteDataSource {
 class RecipeRemoteDataSourceImpl implements RecipeRemoteDataSource {
   final http.Client client;
   static const String baseUrl = 'https://test-api-jlbn.onrender.com/v2';
+  
 
   RecipeRemoteDataSourceImpl({required this.client});
 
   @override
   Future<Map<String, dynamic>> getFeed() async {
-    final response = await client.get(Uri.parse('$baseUrl/feed'));
+    final response = await client.get(Uri.parse('https://test-api-jlbn.onrender.com/v2/feed'));
     
     if (response.statusCode == 200) {
       return json.decode(response.body);
@@ -25,7 +26,7 @@ class RecipeRemoteDataSourceImpl implements RecipeRemoteDataSource {
 
   @override
   Future<Map<String, dynamic>> getRecipeDetails() async {
-    final response = await client.get(Uri.parse('$baseUrl/feed/details'));
+    final response = await client.get(Uri.parse('https://test-api-jlbn.onrender.com/v2/feed/details'));
     
     if (response.statusCode == 200) {
       return json.decode(response.body);
