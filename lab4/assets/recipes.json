@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Classic Greek Salad Spicy",
+    "time": "15 Mins",
+    "rating": 4.5,
+    "category": "Italian",
+    "image": "assets/salad1.png",
+    "author": "Klaus Schimmer",
+    "authorImage": "assets/author_image.png",
+    "location": "Lagos, Nigeria",
+    "ingredients": [
+      {
+        "Tomatos": "500g"
+      },
+      {
+        "Cabbage": "300g"
+      },
+      {
+        "Taco": "300g"
+      },
+      {
+        "Slice Bread": "300g"
+      }
+    ]
+  },
+  {
+    "title": "Crunchy Nut Coleslaw",
+    "time": "10 Mins",
+    "rating": 3.5,
+    "category": "Asian",
+    "image": "assets/salad2.png",
+    "author": "Carl Stein",
+    "authorImage": "assets/author_image.png",
+    "location": "Lagos, Nigeria",
+    "ingredients": [
+      {
+        "Taco": "300g"
+      },
+      {
+        "Slice Bread": "300g"
+      },
+      {
+        "Tomatos": "500g"
+      },
+      {
+        "Cabbage": "300g"
+      }
+    ]
+  },
+  {
+    "title": "Steak with tomato sauce",
+    "time": "20 Mins",
+    "rating": 5.0,
+    "category": "Indian",
+    "image": "assets/steak.png",
+    "author": "Mark Ranek",
+    "authorImage": "assets/author_image.png",
+    "location": "Lagos, Nigeria",
+    "ingredients": [
+      {
+        "Tomatos": "500g"
+      },
+      {
+        "Taco": "300g"
+      },
+      {
+        "Cabbage": "300g"
+      },
+      {
+        "Slice Bread": "300g"
+      }
+    ]
+  },
+  {
+    "title": "Pilaf veggie sweet rice",
+    "time": "25 Mins",
+    "rating": 4.2,
+    "category": "Chinese",
+    "image": "assets/rice.png",
+    "author": "Nathan Kehler",
+    "authorImage": "assets/author_image.png",
+    "location": "Lagos, Nigeria",
+    "ingredients": [
+      {
+        "Slice Bread": "300g"
+      },
+      {
+        "Tomatos": "500g"
+      },
+      {
+        "Cabbage": "300g"
+      },
+      {
+        "Taco": "300g"
+      }
+    ]
+  }
+]
